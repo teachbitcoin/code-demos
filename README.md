@@ -1,2 +1,2 @@
-# notebook-demos
-Code exercises and demos complementing the teachbitcoin.github.io lecture materials.
+# code-examples
+Code exercises and examples complementing the teachbitcoin.github.io lecture materials.
