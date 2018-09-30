@@ -1,0 +1,5 @@
+# ignore all jupyter notebook checkpoint data.
+.ipynb_checkpoints
+
+# ignore mac folder metadata.
+.DS_Store
