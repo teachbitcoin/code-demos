@@ -3,3 +3,6 @@
 
 # ignore mac folder metadata.
 .DS_Store
+
+# ignore draft files.
+*draft*
