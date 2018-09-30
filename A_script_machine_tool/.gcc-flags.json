@@ -1,8 +1,0 @@
-{
-  "execPath": "/usr/bin/g++",
-  "gccDefaultCFlags": "-c -Wall -std=c++11 -fsyntax-only",
-  "gccDefaultCppFlags": "-c -Wall -std=c++11 -fsyntax-only",
-  "gccErrorLimit": 15,
-  "gccIncludePaths": "/usr/local/include, /usr/local/Cellar/zeromq/4.2.5/include, /usr/local/include",
-  "gccSuppressWarnings": true
-}
