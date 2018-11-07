@@ -22,6 +22,7 @@ echo "export BX_CONFIG='/usr/local/etc/libbitcoin/bx.cfg'" >> $HOME/.bash_profil
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sudo chmod +x Miniconda3-latest-Linux-x86_64.sh
 ./Miniconda3-latest-Linux-x86_64.sh
+source $HOME/.bash_profile
 
 conda install xeus-cling notebook -c QuantStack -c conda-forge
 
