@@ -9,3 +9,6 @@
 
 # ignore gcc config files.
 .gcc-flags.json
+
+# raw cpp scripts
+libbitcoin_examples

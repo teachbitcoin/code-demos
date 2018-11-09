@@ -13,6 +13,7 @@
 wget https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.2.0/bx-linux-x64-qrcode
 sudo chmod +x bx-linux-x64-qrcode
 sudo cp bx-linux-x64-qrcode /usr/local/bin/bx
+sudo mkdir /usr/local/etc/libbitcoin
 sudo cp bx_config_files/bx_testnet.cfg /usr/local/etc/libbitcoin/bx_testnet.cfg
 sudo cp bx_config_files/bx_mainnet.cfg /usr/local/etc/libbitcoin/bx_mainnet.cfg
 sudo cp bx_config_files/bx.cfg /usr/local/etc/libbitcoin/bx.cfg
@@ -28,3 +29,4 @@ conda install xeus-cling notebook -c QuantStack -c conda-forge
 
 pip install bash_kernel
 python -m bash_kernel.install
+source $HOME/.bash_profile
