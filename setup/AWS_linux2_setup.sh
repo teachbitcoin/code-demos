@@ -17,7 +17,7 @@ sudo mkdir /usr/local/etc/libbitcoin
 sudo cp bx_config_files/bx_testnet.cfg /usr/local/etc/libbitcoin/bx_testnet.cfg
 sudo cp bx_config_files/bx_mainnet.cfg /usr/local/etc/libbitcoin/bx_mainnet.cfg
 sudo cp bx_config_files/bx.cfg /usr/local/etc/libbitcoin/bx.cfg
-echo "export BX_CONFIG='/usr/local/etc/libbitcoin/bx.cfg'" >> $HOME/.bash_profile
+echo 'export BX_CONFIG="/usr/local/etc/libbitcoin/bx.cfg"' >> $HOME/.bash_profile
 
 #Install miniconda, jupyter, cling kernel, bash kernel.
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
