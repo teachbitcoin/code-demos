@@ -27,6 +27,19 @@ source $HOME/.bashrc
 
 conda install notebook
 
-pip install bash_kernel
+pip install bash_kernel --user
 python -m bash_kernel.install
+
+if ! command -v jq >/dev/null;
+then
+    if command -v dnf >/dev/null;
+    then
+        sudo dnf install jq
+    elif command -v apt-get >/dev/null; then
+        sudo apt-get install jq
+    else
+        echo "Please install 'jq' using your package manager"
+    fi
+fi
+
 source $HOME/.bashrc
