@@ -17,6 +17,11 @@ int main(const int argc, char* argv[])
 				{
 						// Create new wallet with account key.
 						// M/44h/0h/0h, M/44h/0h/1h, M/44h/0h/2h ...
+						if(arguments.empty())
+						{
+								std::cerr << "Wallet requires XPUB account key." << std::endl;
+								return 1;
+						}
 						if(create_new_wallet(arguments.front()))
 								std::cout << "New wallet created." << std::endl;
 						else
